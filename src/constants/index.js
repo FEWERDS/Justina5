@@ -166,7 +166,7 @@ const testimonials = [
     name: "Blender",
     designation: "",
     company: "",
-    image: './public/OIP.jpg',
+    image: './OIP.jpg',
   },
   {
     testimonial:
@@ -174,7 +174,7 @@ const testimonials = [
     name: "Photoshop",
     designation: "",
     company: "",
-    image: "./public/Photoshop_CC_icon.webp",
+    image: "./Photoshop_CC_icon.webp",
   },
   {
     testimonial:
@@ -182,7 +182,7 @@ const testimonials = [
     name: "Clip Studio",
     designation: "",
     company: "",
-    image: "./public/OIP (1).jpg",
+    image: "./OIP (1).jpg",
   },
 ];
 
