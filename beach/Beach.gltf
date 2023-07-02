@@ -44,7 +44,9 @@
                 34,
                 35,
                 36,
-                37
+                37,
+                38,
+                39
             ]
         }
     ],
@@ -766,6 +768,39 @@
                 0.9232785105705261,
                 0.4125651717185974
             ]
+        },
+        {
+            "mesh" : 38,
+            "name" : "Text.001",
+            "rotation" : [
+                0.004810940939933062,
+                0.46709540486335754,
+                -0.8841902017593384,
+                0.0025414498522877693
+            ],
+            "scale" : [
+                0.28609272837638855,
+                0.28609272837638855,
+                0.28609272837638855
+            ],
+            "translation" : [
+                0.36515411734580994,
+                0.6475221514701843,
+                0.7093583941459656
+            ]
+        },
+        {
+            "name" : "BezierCircle",
+            "scale" : [
+                0.9008806347846985,
+                0.9008806347846985,
+                0.9008806347846985
+            ],
+            "translation" : [
+                -0.024288397282361984,
+                1.0538219213485718,
+                0.31384989619255066
+            ]
         }
     ],
     "materials" : [
@@ -1206,6 +1241,23 @@
                 ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                0,
+                0.6281344271510747
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
             }
         }
     ],
@@ -1737,6 +1789,20 @@
                     },
                     "indices" : 126,
                     "material" : 31
+                }
+            ]
+        },
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 130,
+                        "NORMAL" : 131,
+                        "TEXCOORD_0" : 132
+                    },
+                    "indices" : 133,
+                    "material" : 32
                 }
             ]
         }
@@ -2901,6 +2967,40 @@
             "componentType" : 5126,
             "count" : 338,
             "type" : "VEC2"
+        },
+        {
+            "bufferView" : 130,
+            "componentType" : 5126,
+            "count" : 5636,
+            "max" : [
+                2.21108341217041,
+                0.025145530700683594,
+                0.23631715774536133
+            ],
+            "min" : [
+                0.6357920169830322,
+                -0.9263889193534851,
+                -0.1548924446105957
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 131,
+            "componentType" : 5126,
+            "count" : 5636,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 132,
+            "componentType" : 5126,
+            "count" : 5636,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 133,
+            "componentType" : 5123,
+            "count" : 6780,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -3553,11 +3653,31 @@
             "buffer" : 0,
             "byteLength" : 2704,
             "byteOffset" : 2114960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67632,
+            "byteOffset" : 2117664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67632,
+            "byteOffset" : 2185296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45088,
+            "byteOffset" : 2252928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13560,
+            "byteOffset" : 2298016
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 2117664,
+            "byteLength" : 2311576,
             "uri" : "Beach.bin"
         }
     ]
