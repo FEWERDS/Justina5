@@ -21,7 +21,7 @@ import {
   shopify,
   wheelChair,
   Trebuchet,
-  Certificate,
+  
   threejs,
   timeline1,
   timeline2,
@@ -34,7 +34,10 @@ import {
   ball4,
   ball5,
   ball6,
-  ball7
+  ball7,
+  MOS,
+  Adobe,
+  Awards
 } from "../assets";
 
 export const navLinks = [
@@ -148,13 +151,13 @@ const experiences = [
     ],
   },
   {
-    title: "Pursuing Challenge and Innovation",
+    title: "Design, 3D",
     company_name: "",
     icon: timeline5,
     iconBg: "#E6DEDD",
     date: "Future",
     points: [
-      "Unsatisfied with the status quo, I attempted to construct a trebuchet again, continuing my journey of innovation and challenge, with hopes of creating more possibilities.",
+      " I plan to study interactive design in Taiwan and make an animation. Starting from learning character design, I hope to become an animator or model designer in the future.",
     ],
   },
 ];
@@ -184,6 +187,7 @@ const testimonials = [
     company: "",
     image: "./OIP (1).jpg",
   },
+  
 ];
 
 const projects = [
@@ -197,16 +201,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Code",
+        name: "Recycle",
         color: "green-text-gradient",
       },
       {
-        name: "Recycle",
+        name: "Project",
         color: "pink-text-gradient",
       },
     ],
     image: wheelChair,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1azoydjzJIVkqHafGJkRGqPOZ3DtQIzI2/view?usp=sharing",
   },
   {
     name: "Trebuchet",
@@ -218,28 +222,70 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Wood",
+        name: "Physics",
         color: "green-text-gradient",
       },
       {
-        name: "Physics",
+        name: "Project",
         color: "pink-text-gradient",
       },
     ],
     image: Trebuchet,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://youtu.be/GoyM09nBccc",
   },
   {
-    name: "Certificate ",
+    name: "Microsoft Office Specialist ",
     description:
-      "This certificate is more than just an accolade. It's a testament to the countless hours of dedication, passion, and resilience throughout my artistic journey. It symbolizes my growth as an artist and as a person. More than a milestone, it propels me to push my creative boundaries further.",
+      "I have obtained many certificates on Microsoft's software, and I will take the word associate exam next.",
     tags: [
       {
         name: "Microsoft",
         color: "blue-text-gradient",
       },
       {
+        name: "Office",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Certificate",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: MOS ,
+    source_code_link: "https://flic.kr/s/aHBqjAKVig",
+  },
+  {
+    name: "Adobe Certified Professional",
+    description:
+      "I applied for Adobe photoshop and Illustrator, so I have an Adobe Certified Professional certificate.",
+    tags: [
+      {
         name: "Adobe",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Visual Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Certificate",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Adobe ,
+    source_code_link: "https://flic.kr/s/aHBqjAL11E",
+  },
+  {
+    name: "Awards",
+    description:
+      "In the pursuit of personal growth and self-improvement, I choose to participate in competitions while studying for exams or tests. This decision showcases my exceptional ability to balance multiple commitments and signs my dedication to achieving success in various do mains simultaneously taking time to improve Art design myself, and got me some awards.",
+    tags: [
+      {
+        name: "Painting",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Art",
         color: "green-text-gradient",
       },
       {
@@ -247,8 +293,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Certificate ,
-    source_code_link: "https://github.com/",
+    image: Awards ,
+    source_code_link: "https://flic.kr/s/aHBqjAKVDv",
   },
 ];
 

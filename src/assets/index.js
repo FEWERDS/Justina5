@@ -28,7 +28,10 @@ import tesla from "./company/tesla.png";
 
 import wheelChair from "./wheelchair.png";
 import Trebuchet from "./Trebuchet.jpg";
-import Certificate from "./Certificate.jpg";
+import Certificate from "./Certificate.png";
+import MOS from "./MOS.jpg";
+import Adobe from "./Adobe.jpg";
+import Awards from "./getaward.jpeg"
 
 import timeline1 from "./company/timeline1.jpg";
 import timeline2 from "./company/timeline2.png";
@@ -42,7 +45,7 @@ import ball4 from "./tech/ball4.jpg"
 import ball5 from "./tech/ai.png"
 import ball6 from "./tech/fusion360.png"
 import ball7 from "./tech/arduino.png"
-
+import more from "./more.png"
 export {
   logo,
   backend,
@@ -83,5 +86,9 @@ export {
   ball4,
   ball5,
   ball6,
-  ball7
+  ball7,
+  more,
+  MOS,
+  Adobe,
+  Awards
 };

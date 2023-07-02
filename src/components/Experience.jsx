@@ -58,8 +58,11 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <div className='mt-12 bg-black-100 rounded-[20px]' id="work">
+      <div
+        className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
+      >
+      <motion.div variants={textVariant()} className={`${window.innerWidth < 600 ? '' : 'ml-52'}`}>
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>TimeLine</h2>
       </motion.div>
@@ -71,8 +74,9 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+      </div>
+    </div>
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default Experience;
