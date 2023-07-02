@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Justina4/',
+  base: '/Justina5/',
   plugins: [react()],
 })
